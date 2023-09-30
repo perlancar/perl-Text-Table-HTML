@@ -1,3 +1,21 @@
+
+
+        - <table> element:
+
+           - add direct specification of 'id', 'class', and 'style'
+             attributes via the 'id', 'class', and 'style' parameters.
+
+           - Add generic attributes via the 'attr' parameter
+
+           - add <colgroup> and <tfoot> elements
+
+        - table cells:
+
+           - Add 'class', 'header', 'id', 'scope', 'style' attributes
+
+           - allow specification of the type of cell (e.g. 'th' or 'td')
+
+
 0.010   2023-05-22  Released-By: PERLANCAR; Urgency: medium
 
         - [bugfix] Fix some bugs with placement of <tbody> tag (thanks DJERIUS).
